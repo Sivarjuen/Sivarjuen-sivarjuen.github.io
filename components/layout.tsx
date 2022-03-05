@@ -7,7 +7,13 @@ import Link from "next/link";
 const name = "Sivarjuen Ravichandran";
 export const siteTitle = "Next.js Sample Website";
 
-export default function Layout({ children, home }) {
+export default function Layout({
+  children,
+  home
+}: {
+  children: React.ReactNode
+  home?: boolean
+}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -69,5 +75,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  );
+  )
 }
