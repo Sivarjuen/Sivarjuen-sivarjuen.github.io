@@ -1,3 +1,5 @@
+# sivarjuen.com
+
 This project was bootstrapped with [NextJS](https://nextjs.org/).
 
 ## Available Scripts
